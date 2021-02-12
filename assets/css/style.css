@@ -1,0 +1,154 @@
+:root {
+    --mediumBlack: #463f3a;
+    --white: #f4f3ee;
+    --drackGray: #8a817c;
+    --ligthGray: #bcb8b1;
+    --orange-medium: #b63c04;
+    --open-sans: 'Open Sans', sans-serif;
+    --abuntu: 'Ubuntu', sans-serif;
+    --sombra: 4px 4px 14px -6px #010000;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--open-sans);
+}
+
+
+/* globals */
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 4.6rem;
+}
+
+h2 {
+    font-size: 2.8rem;
+}
+
+h3 {
+    font-size: 2.4rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* utilidades */
+
+.parallax::before {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.center-text {
+    text-align: center;
+}
+
+
+/* HEADER */
+
+header {
+    position: relative;
+}
+
+header::before {
+    content: '';
+    background-image: url(../img/img2.jpg);
+}
+
+.container-nav {
+    position: relative;
+    padding-top: 30px;
+    min-width: 273px;
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.container-nav a {
+    font-size: 1.6rem;
+    color: var(--white);
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 15px;
+    font-weight: 700;
+}
+
+.container-nav a:hover {
+    color: var(--orange-medium);
+    border-bottom: 1px solid var(--orange-medium);
+    box-shadow: var(--sombra);
+}
+
+.container-nav a:last-of-type {
+    margin-right: 0;
+}
+
+.container-tittle {
+    position: relative;
+    margin-top: 150px;
+}
+
+.container-tittle h1 {
+    text-transform: capitalize;
+    color: var(--white);
+    font-weight: 700;
+}
+
+.container-tittle a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: var(--white);
+    border: 1px solid var(--white);
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.container-tittle a:hover {
+    color: var(--orange-medium);
+    border: 1px solid var(--orange-medium);
+    box-shadow: var(--sombra);
+}
