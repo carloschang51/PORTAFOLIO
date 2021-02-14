@@ -221,7 +221,7 @@ header::before {
 
 .container-profile {
     text-align: center;
-    margin-top: 50px;
+    margin: 50px 0;
 }
 
 .container-profile img {
@@ -238,6 +238,66 @@ header::before {
     font-weight: 400;
     color: var(--drackGray);
     text-align: justify;
+}
+
+
+/* barras */
+
+.container-bars {
+    margin-bottom: 15px;
+    background-color: var(--drackGray);
+    width: 100%;
+    height: 40px;
+    display: flex;
+    position: relative;
+    box-shadow: var(--sombra);
+}
+
+.bars1 {
+    background-color: var(--orange-medium);
+    width: 25%;
+    height: 40px;
+}
+
+.bars1 p {
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+    color: var(--white);
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.container-bars .bars-different-1 {
+    background-color: var(--orange-Dark);
+    width: 55%;
+    height: 40px;
+}
+
+.container-bars .bars-different-2 {
+    background-color: var(--orange-Dark);
+    width: 55%;
+    height: 40px;
+}
+
+.container-bars .bars-different-3 {
+    background-color: var(--orange-Dark);
+    width: 20%;
+    height: 40px;
+}
+
+.container-bars .bars-different-4 {
+    background-color: var(--orange-Dark);
+    width: 50%;
+    height: 40px;
+}
+
+.bars3 p {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    color: var(--white);
+    font-weight: 700;
 }
 
 
