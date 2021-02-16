@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&family=Ubuntu:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/style.css">
+
+    <link rel="stylesheet" href="/assets/css/resposnive.css" media="(min-width:980px)">
     <title>Portafolio de Carlos</title>
 </head>
 
@@ -18,13 +20,13 @@
     <header class="parallax">
         <div class="container center-text">
             <nav class="container-nav">
-                <a href="#">a cerca</a>
-                <a href="#">proyecto</a>
-                <a href="#">contacto</a>
+                <a href="#acerca">acerca</a>
+                <a href="#project">proyecto</a>
+                <a href="#Contact">contacto</a>
             </nav>
             <div class="container-tittle">
                 <h1>carlos chang</h1>
-                <a href="#" id="acerca">web developer</a>
+                <a href="#profile">web developer</a>
             </div>
         </div>
     </header>
@@ -34,12 +36,14 @@
     <!-- MAIN-->
     <main>
         <!-- =========================================
-            SECTIÓN DE LOS ACERCA DE 
+            SECTIÓN DE ACERCA DE 
         ==============================================-->
-        <section class="container-aboult">
+
+        <section class="container-aboult" id="acerca">
             <div class="section-aboult-tittle">
                 <h2>acerca de <br><span><i class="fas fa-ellipsis-h"></i></span></h2>
             </div>
+
             <div class="container-aboult-icons">
                 <div class="container-icons">
                     <span><i class="fas fa-bolt"></i></span>
@@ -58,75 +62,83 @@
                 </div>
             </div>
 
-            <div class="container-profile">
-                <img src="/assets/img/perfil.jpg" alt="Foto de Perfil">
-                <p>Soy dinámico, entusiasta, innovador, proactivo. Mis principales valores para el trabajo son la lealtad, honestidad y responsabilidad. Excelente actitud para seguir ordenes e instrucciones y firme interés en progresar y aprovechar al máximo
-                    las oportunidades.</p>
-            </div>
-            <!-- bars  -->
-            <div class="container-bars">
-                <div class="bars1">
-                    <span></span>
-                    <p>HTML</p>
+        </section>
+        <!-- =========================================
+            SECTIÓN DE QUIEN SOY 
+        ==============================================-->
+        <section class="section-profile" id="profile">
+            <h2>¿quien soy? <br><span><i class="fas fa-ellipsis-h"></i></span></h2>
+            <div class="section-profile-container">
+                <div class="container-profile">
+                    <img src="/assets/img/perfil.jpg" alt="Foto de Perfil">
+                    <p>Soy dinámico, entusiasta, innovador, proactivo. Mis principales valores para el trabajo son la lealtad, honestidad y responsabilidad. Excelente actitud para seguir ordenes e instrucciones y firme interés en progresar y aprovechar al
+                        máximo las oportunidades.</p>
                 </div>
-                <div class="bars-different-1">
-                    <span></span>
-                </div>
-                <div class="bars3">
-                    <span></span>
-                    <p>85%</p>
-                </div>
-            </div>
+                <!-- bars  -->
+                <div class="all-bars">
+                    <div class="container-bars">
+                        <div class="bars1">
+                            <span></span>
+                            <p>HTML</p>
+                        </div>
+                        <div class="bars-different-1">
+                            <span></span>
+                        </div>
+                        <div class="bars3">
+                            <span></span>
+                            <p>85%</p>
+                        </div>
+                    </div>
 
-            <div class="container-bars">
-                <div class="bars1">
-                    <span></span>
-                    <p>CSS</p>
-                </div>
-                <div class="bars-different-2">
-                    <span></span>
-                </div>
-                <div class="bars3">
-                    <span></span>
-                    <p>85%</p>
-                </div>
-            </div>
+                    <div class="container-bars">
+                        <div class="bars1">
+                            <span></span>
+                            <p>CSS</p>
+                        </div>
+                        <div class="bars-different-2">
+                            <span></span>
+                        </div>
+                        <div class="bars3">
+                            <span></span>
+                            <p>85%</p>
+                        </div>
+                    </div>
 
-            <div class="container-bars">
-                <div class="bars1">
-                    <span></span>
-                    <p>JS</p>
-                </div>
-                <div class="bars-different-3">
-                    <span></span>
-                </div>
-                <div class="bars3">
-                    <span></span>
-                    <p>25%</p>
-                </div>
-            </div>
+                    <div class="container-bars">
+                        <div class="bars1">
+                            <span></span>
+                            <p>JS</p>
+                        </div>
+                        <div class="bars-different-3">
+                            <span></span>
+                        </div>
+                        <div class="bars3">
+                            <span></span>
+                            <p>25%</p>
+                        </div>
+                    </div>
 
-            <div class="container-bars">
-                <div class="bars1">
-                    <span></span>
-                    <p>GitHub</p>
-                </div>
-                <div class="bars-different-4">
-                    <span></span>
-                </div>
-                <div class="bars3">
-                    <span></span>
-                    <p>80%</p>
+                    <div class="container-bars">
+                        <div class="bars1">
+                            <span></span>
+                            <p>GitHub</p>
+                        </div>
+                        <div class="bars-different-4">
+                            <span></span>
+                        </div>
+                        <div class="bars3">
+                            <span></span>
+                            <p>80%</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-
-
         <!-- =========================================
             SECTIÓN DE LOS PROJECTS 
         ==============================================-->
-        <section class="container-Projects">
+        <section class="container-Projects" id="project">
 
             <h2>proyectos <br><span><i class="fas fa-ellipsis-h"></i></span></h2>
             <ul class="content-project">
@@ -154,9 +166,31 @@
                         <p>conferencias</p>
                     </li>
                 </div>
-                <div class="button-content-project">
-                    <button>ver màs</button>
+                <div class="content-project-link">
+                    <li>
+                        <a href="#">
+                            <img src="/assets/img/proyecto3.jpg" alt="Foto del proyecto 3">
+                        </a>
+                        <p>conferencias</p>
+                    </li>
                 </div>
+                <div class="content-project-link">
+                    <li>
+                        <a href="#">
+                            <img src="/assets/img/proyecto3.jpg" alt="Foto del proyecto 3">
+                        </a>
+                        <p>conferencias</p>
+                    </li>
+                </div>
+                <div class="content-project-link">
+                    <li>
+                        <a href="#">
+                            <img src="/assets/img/proyecto3.jpg" alt="Foto del proyecto 3">
+                        </a>
+                        <p>conferencias</p>
+                    </li>
+                </div>
+
             </ul>
 
         </section>
@@ -165,10 +199,12 @@
 
     <!-- FOOTER -->
 
-    <footer>
-        <a href="https://www.linkedin.com/in/carlos-chang-a2587b1b7/">
+    <footer id="Contact">
+        <a href="https://www.linkedin.com/in/carlos-chang-a2587b1b7/" target="_black">
             <span><i class="fab fa-linkedin"></i></span></a>
     </footer>
+
+    <script src="/assets/js/index.js"></script>
 </body>
 
 </html>
