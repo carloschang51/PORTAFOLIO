@@ -37,6 +37,11 @@ container-profile {
     flex: 0 0 calc(50% - 1rem);
 }
 
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 
 /*=========================================
            BARRAS
