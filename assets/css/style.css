@@ -360,7 +360,6 @@ header::before {
 .content-project-link li img {
     transition: all .5s ease;
     margin-bottom: 25px;
-    width: 100%;
     width: 460px;
     height: 300px;
 }
