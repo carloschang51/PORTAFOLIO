@@ -107,6 +107,10 @@ li {
     text-align: center;
 }
 
+.hide {
+    display: none;
+}
+
 
 /*=========================================
            HEADER
@@ -122,12 +126,24 @@ header::before {
     background-image: url(../img/img2.jpg);
 }
 
+.icons-nav {
+    padding-top: 30px;
+}
+
+.icons-nav p i {
+    position: relative;
+    text-align: center;
+    color: var(--white);
+    font-size: 4rem;
+}
+
 .container-nav {
     position: relative;
-    padding-top: 30px;
     min-width: 273px;
     max-width: 550px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .container-nav a {
@@ -135,13 +151,9 @@ header::before {
     color: var(--white);
     text-decoration: none;
     text-transform: uppercase;
-    margin-right: 15px;
     font-weight: 700;
     line-height: 2;
-}
-
-.container-nav a:last-of-type {
-    margin-right: 0;
+    padding: 10px 0;
 }
 
 .container-nav a:hover {
@@ -151,7 +163,7 @@ header::before {
 
 .container-tittle {
     position: relative;
-    margin-top: 150px;
+    padding-top: 100px;
 }
 
 .container-tittle h1 {
@@ -332,6 +344,10 @@ header::before {
     font-weight: 700;
 }
 
+.hola {
+    padding: 10px;
+}
+
 
 /*=========================================
           SECTION PROYECTOS
@@ -422,4 +438,11 @@ footer {
 footer span {
     font-size: 4rem;
     color: var(--orange-medium);
+}
+
+
+/* utilidades */
+
+.hide {
+    display: none;
 }
